@@ -16,6 +16,7 @@ def main():
 
     print(my_json_product)
 
+
     productToJSON.write_json_on_file(my_json_product)
 
     playOnAttributesProduct.sum_price(my_product.price,p.price)
